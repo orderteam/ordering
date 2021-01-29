@@ -19,10 +19,4 @@ public class UserDao extends BaseDao<User> {
         return user;
     }
 
-    //这是designal新加的方法
-    public int selectCounts(String oid){
-        String sql ="";
-        return 0;
-    }
-
 }
