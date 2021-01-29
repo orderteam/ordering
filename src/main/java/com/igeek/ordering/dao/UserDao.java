@@ -18,4 +18,11 @@ public class UserDao extends BaseDao<User> {
         User user = this.getBean(sql, User.class, username, password);
         return user;
     }
+
+    //这是designal新加的方法
+    public int selectCounts(String oid){
+        String sql ="";
+        return 0;
+    }
+
 }
